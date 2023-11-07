@@ -1,0 +1,290 @@
+/* body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    flex-basis: 30%;
+}
+
+.cabecalho__logo {
+    margin-bottom: 50px;
+}
+
+.cabecalho__logo img {}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+.cabecalho__menuNavegacao {}
+
+.cabecalho__menoLista {}
+
+.cabecalho__menuIten {
+    margin-bottom: 25px;
+}
+
+.cabecalho__menuIten img {
+    max-width: 26px;
+}
+
+.cabecalho__menuIten a {
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+/* CONTEUDO PRINCIPAL */
+.conteudoPrincipal {
+    flex-basis: 70%;
+    border-left:  1px solid #e7ecf0;
+    border-right:  1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__titulo {
+    padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario {
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea {
+    display: block;
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.conteudoPrincipal__formulario button {
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.conteudoPrincipal__feed {}
+
+.conteudoPrincipal__listaTweets {}
+
+.conteudoPrincipal__tweet {
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil {}
+
+.tweet__conteudo {
+    margin-left: 15px;
+}
+
+.tweet__conteudo h2 {
+    display: inline-block;
+}
+
+.tweet__conteudo span {
+    display: inline-block;
+    color: #828282;
+}
+
+.tweet__conteudo p {
+    margin-top: 15px;
+    color: #333;
+}/* CSS => Cascading StyleSheet(Folha de estilo em cascata)
+
+Estrutura
+
+Regra CSS:
+seletor {
+    propriedade: valor; -> declaração
+}
+
+CSS BEM
+
+B -> Bloco
+E -> Elemento
+M -> Modificador
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+
+    /* margin-top: 50px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+    margin: top right bottom left;
+    margin: top right/left bottom;
+    margin: top/bottom right/left;
+    margin: todos os lados; */
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    flex-basis: 30%;
+}
+.cabecalho__logo{
+    margin-bottom: 50px;
+}
+.cabecalho__logo img{
+    width: 13%;
+    margin: 40px auto auto;
+}
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+.cabecalho__menuNavegacao{}
+.cabecalho__menuLista{}
+.cabecalho__menuItem{
+    margin-bottom: 25px;
+}
+.cabecalho__menuItem img{
+    max-width: 26px;
+}
+.cabecalho__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+}
+
+
+.conteudoPrincipal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.conteudoPrincipal__formulario button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+div .tweet__fotoPerfil{
+    position: absolute;    
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr repeat(4.1fr);
+    margin: 10px 0px 0px 5px;
+}
+
+.areatexto{
+    width: 300px !important;
+    line-height: 30px;
+    margin: 0 10%;
+}
+
+.conteudoPrincipal__feed{
+}
+.conteudoPrincipal__listaTweets{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.conteudoPrincipal__tweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil{}
+.tweet__conteudo{
+    margin-left: 10%;
+}
+.tweet__conteudo h2{
+    display: inline-block;
+}
+.tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+.tweet__conteudo p{
+    margin-top: 15px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.tweet__conteudo img{
+    width: 4%;
+}
+
+.tweet__conteudo a{
+    text-decoration: none;
+    color: rgb(27, 149, 224);
+    margin: 0px 5%;
+}
+.tweet__conteudo p a{
+    text-decoration: none;
+    color: rgb(27, 149, 224);
+    margin: 0;
+}
+
+.tweet__conteudo .post1 img{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.reacao{
+    display: inline-block;
+    color: #828282;
+    margin: 0 20px;
+  }
+  
+  .reacao img{
+      margin: 0 12px;
+  }

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <!-- CONFIGURAÇÕES -->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.ico" type="image/x-icon">
+        <title>Twitter</title>
+    </head>
+
+    <!-- CORPO -->
+    <body>
+        
+        <div class="container">
+
+            <!-- CABEÇALHO -->
+            <header class="cabecalho">
+
+                <!-- IMAGEM LOGO -->
+                <figure class="cabecalho__logo">
+                    <img src="assets/img/logo-twitter.png" alt="Logo Twitter"> 
+                    <figcaption hidden>Logo Twitter</figcaption> 
+                </figure>
+
+                <!-- MENU DE NAVEGAÇÃO -->
+                <nav class="cabecalho__menuNavegacao">
+
+                    <!-- LISTA DE LINKS -->
+                    <ul class="cabecalho__menuLista">
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Home.png" alt="Página Inicial">
+                            <a href="">Página Inicial</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Hashtag.png" alt="Explorar">
+                            <a href="">Explorar</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Notification.png" alt="Notificações">
+                            <a href="">Notificações</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Group.png" alt="Mensagens">
+                            <a href="">Mensagens</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Group (1).png" alt="Itens salvos">
+                            <a href="">Itens salvos</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Group (2).png" alt="Listas">
+                            <a href="">Listas</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/ProfilePic.png" alt="Perfil">
+                            <a href="">Perfil</a>
+                        </li>
+
+                        <li class="cabecalho__menuItem"> 
+                            <img src="./assets/img/Group (3).png" alt="Mais">
+                            <a href="">Mais</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </header>
+
+            <!-- CONTEÚDO PRINCIPAL -->
+            <main class="conteudoPrincipal">
+                
+                <!-- TÍTULO -->
+                <h3 class="conteudoPrincipal__titulo">Página Inicial</h3>
+                
+                <!-- FORMULÁRIO -->
+                <form action="#" class="conteudoPrincipal__formulario">
+                    <div class="box">
+                    <img class="tweet__fotoPerfil" src="assets/img/ProfilePic.png" alt="Julia"><textarea class="areatexto" name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+                    </div>
+                
+                    <button type="submit">Tweetar</button>
+                </form>
+
+                <!-- FEED DE NOTÍCIAS -->
+                <section class="conteudoPrincipal__feed">
+                    
+                    <!-- LISTA DE NOTÍCIAS -->
+                    <ul class="conteudoPrincipal__listaTweets">
+                        <!-- NOTÍCIA -->
+                        <li class="conteudoPrincipal__tweet">
+                            <!-- IMAGEM DO USUÁRIO -->
+                            <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (2).png" alt="GirlOnTwitter">
+
+                            <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
+                            <div class="tweet__conteudo">
+                                <h2>Lucas Dallo</h2>
+                                <span>@Lucasdallo · 30s</span>
+                                <p>Hoje eu percebi que JavaScript e tão 🤯 porque você pode fazer tanta coisa que me deixa até tonto!! <a href="#">#JavaScript</a></p>
+                                 <!--RESPONDER, RETWEETAR, CURTIR E COMPARTILHAR-->
+                                 <section class="reacao">
+                                    <a href="#" title="Responder"><img src="assets/img/responder.png" alt="Responder"><span>45</span></a>
+                                    <a href="#" title="Retweetar"><img src="assets/img/retweetar.png" alt="Retweetar"><span>185</span></a>
+                                    <a href="#" title="Curtir"><img src="assets/img/curtir.png" alt="Curtir"><span>154</span></a>
+                                    <a href="#" title="Compartilhar"><img src="assets/img/compartilhar.png" alt="Compartilhar"></a>
+                                    </section>
+                            </div>
+
+                        </li>
+                        <!-- NOTÍCIA -->
+                        <li class="conteudoPrincipal__tweet">
+                            <!-- IMAGEM DO USUÁRIO -->
+                            <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="Nezuko Chan">
+
+                            <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
+                            <div class="tweet__conteudo">
+                                <h2>Flavia Vitória</h2>
+                                <span>@flavihh · 20s</span>
+                                <p> Acessem o gitHub do will </p>
+                                 <!--RESPONDER, RETWEETAR, CURTIR E COMPARTILHAR-->
+                                 <section class="reacao">
+                                    <a href="#" title="Responder"><img src="assets/img/responder.png" alt="Responder"><span>542</span></a>
+                                    <a href="#" title="Retweetar"><img src="assets/img/retweetar.png" alt="Retweetar"><span>461</span></a>
+                                    <a href="#" title="Curtir"><img src="assets/img/curtir.png" alt="Curtir"><span>413</span></a>
+                                    <a href="#" title="Compartilhar"><img src="assets/img/compartilhar.png" alt="Compartilhar"></a>
+                                    </section>
+                            </div>
+
+                        </li>
+
+                            <!-- NOTÍCIA -->
+                        <li class="conteudoPrincipal__tweet">
+                            <!-- IMAGEM DO USUÁRIO -->
+                            <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (3).png" alt="Doce Amargo">
+
+                            <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
+                            <div class="tweet__conteudo">
+                                <h2>Julio Ribeiro</h2>
+                                <span>@julioribeiro · 1min</span>
+                                <p>Me ajudem a encontrar uma vada de DEV 👀</p>
+                                 <!--RESPONDER, RETWEETAR, CURTIR E COMPARTILHAR-->
+                                 <section class="reacao">
+                                    <a href="#" title="Responder"><img src="assets/img/responder.png" alt="Responder"><span>314</span></a>
+                                    <a href="#" title="Retweetar"><img src="assets/img/retweetar.png" alt="Retweetar"><span>50</span></a>
+                                    <a href="#" title="Curtir"><img src="assets/img/curtir.png" alt="Curtir"><span>225</span></a>
+                                    <a href="#" title="Compartilhar"><img src="assets/img/compartilhar.png" alt="Compartilhar"></a>
+                                    </section>
+                            </div>
+
+                               <!-- NOTÍCIA -->
+                        <li class="conteudoPrincipal__tweet">
+                            <!-- IMAGEM DO USUÁRIO -->
+                            <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (4).png" alt="Sou Leticia">
+
+                            <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
+                            <div class="tweet__conteudo">
+                                <h2>Henrique Moraes</h2>
+                                <span>@henriquens · 2min</span>
+                                <p>*1 milhão de problemas pra resolver*
+                                    <br><br>
+                                    eu resolvendo meus problemas: <div class="post1">
+                                <img src="assets/img/post-1.jpeg" alt="cachorro dormindo com legenda hm soninho gotoso"></div></p>
+                                <!--RESPONDER, RETWEETAR, CURTIR E COMPARTILHAR-->
+                                <section class="reacao">
+                                <a href="#" title="Responder"><img src="assets/img/responder.png" alt="Responder"><span>121</span></a>
+                                <a href="#" title="Retweetar"><img src="assets/img/retweetar.png" alt="Retweetar"><span>200</span></a>
+                                <a href="#" title="Curtir"><img src="assets/img/curtir.png" alt="Curtir"><span>326</span></a>
+                                <a href="#" title="Compartilhar"><img src="assets/img/compartilhar.png" alt="Compartilhar"></a>
+                                </section>
+                            </div>
+
+                                <!-- NOTÍCIA -->
+                        <li class="conteudoPrincipal__tweet">
+                            <!-- IMAGEM DO USUÁRIO -->
+                            <img class="tweet__fotoPerfil" src="./assets/img/profilewill.jpg" alt="Julia">
+
+                            <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
+                            <div class="tweet__conteudo">
+                                <h2>William Wenling Veiga</h2>
+                                <span>@will.wendling · 12s</span>
+                                <p>Eu estou estudando para ser Dev 😊 estou fazendo vários projetos, você pode me acompanhar no GitHub: <a href="https://github.com/william-wv">@william-wv</a> 
+                                    <img src="https://avatars.githubusercontent.com/in/15368?s=48&v=4" alt="GitHub">
+                                </p>
+                                 <!--RESPONDER, RETWEETAR, CURTIR E COMPARTILHAR-->
+                                 <section class="reacao">
+                                    <a href="#" title="Responder"><img src="assets/img/responder.png" alt="Responder"><span>21</span></a>
+                                    <a href="#" title="Retweetar"><img src="assets/img/retweetar.png" alt="Retweetar"><span>100</span></a>
+                                    <a href="#" title="Curtir"><img src="assets/img/curtir.png" alt="Curtir"><span>250</span></a>
+                                    <a href="#" title="Compartilhar"><img src="assets/img/compartilhar.png" alt="Compartilhar"></a>
+                                    </section>
+                            </div>
+                            
+                        </li>
+                    </ul>
+
+                </section>
+
+            </main>
+
+        </div>
+
+        <script type="text/javascript" src="./assets/js/script.js"></script>
+
+    </body>
+
+</html>
